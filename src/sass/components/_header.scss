@@ -6,7 +6,7 @@
   &__bg {
     height: 100%;
     width: 100%;
-    background-color: rgba($purple, 1);
+    background: linear-gradient(to bottom, $white, $white, $purple, $purple-2);
     border-radius: 0 0 100% 100%;
   }
 
@@ -18,28 +18,31 @@
     background-color: rgba($red, 0.6);
     @include bubble;
     top: 50%;
-    left: -1rem;
-    transform: scale(1.8);
+    // left: -1rem;
+    animation: redBubble 10s ease-in-out infinite;
   }
   &__blue-bubble {
-    background-color: rgba($blue, 0.5);
+    background-color: rgba($blue, 0.7);
     @include bubble;
     top: 20%;
     right: 10%;
+    animation: blueBubble 8s ease-in-out infinite;
   }
   &__green-bubble {
-    background-color: rgba($green, 0.5);
+    background-color: rgba($green, 0.8);
     @include bubble;
-    top: 80%;
+    top: 83%;
     left: 8%;
     transform: scale(0.8);
+    animation: greenBubble 5s ease-in-out infinite;
   }
   &__yellow-bubble {
-    background-color: rgba($yellow, 0.6);
+    background-color: rgba($yellow, 0.8);
     @include bubble;
     top: 75%;
     right: 12%;
     transform: scale(4);
+    animation: yellowBubble 20s ease-in-out infinite;
   }
 
   &__arrow-down {
@@ -47,6 +50,7 @@
     bottom: 3%;
     left: 48.5%;
     font-size: 10rem;
-    color: rgba($blue, 0.8);
+    color: $white;
+    animation: arrowMotionUpDown 1s ease-in-out infinite;
   }
 }
