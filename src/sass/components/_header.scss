@@ -1,0 +1,52 @@
+.header {
+  height: 95vh;
+  margin-top: -8rem;
+  position: relative;
+
+  &__bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba($purple, 1);
+    border-radius: 0 0 100% 100%;
+  }
+
+  &__img {
+    margin-top: 15rem;
+  }
+
+  &__red-bubble {
+    background-color: rgba($red, 0.6);
+    @include bubble;
+    top: 50%;
+    left: -1rem;
+    transform: scale(1.8);
+  }
+  &__blue-bubble {
+    background-color: rgba($blue, 0.5);
+    @include bubble;
+    top: 20%;
+    right: 10%;
+  }
+  &__green-bubble {
+    background-color: rgba($green, 0.5);
+    @include bubble;
+    top: 80%;
+    left: 8%;
+    transform: scale(0.8);
+  }
+  &__yellow-bubble {
+    background-color: rgba($yellow, 0.6);
+    @include bubble;
+    top: 75%;
+    right: 10%;
+    transform: scale(4);
+  }
+
+  &__arrow-down {
+    position: absolute;
+    bottom: 3%;
+    right: 49%;
+    font-size: 10rem;
+    color: rgba($blue, 0.8);
+  }
+}
