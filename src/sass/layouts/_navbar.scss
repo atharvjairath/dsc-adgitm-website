@@ -1,0 +1,52 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 7rem;
+  @include flexRowBetween;
+  padding: 1rem 0 1rem 0;
+  background-color: transparent;
+  z-index: 1;
+
+  &__logo {
+    width: 30rem;
+    margin-top: 1.5rem;
+  }
+
+  &__collections {
+    min-width: 40%;
+    @include flexRowBetween;
+    height: 100%;
+  }
+
+  &__nav-links {
+    display: inline-block;
+    height: 100%;
+    list-style: none;
+    font-size: 1.5rem;
+
+    a {
+      &,
+      &:link,
+      &:visited {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: 0.3rem solid transparent;
+        transition: all 0.3s ease;
+        backface-visibility: hidden;
+      }
+
+      &.active {
+        border-bottom: 0.3rem solid $red;
+      }
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
