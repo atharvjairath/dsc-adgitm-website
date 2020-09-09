@@ -71,10 +71,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Harsh} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Harsh
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Lead
                                     </Typography>
                                 </Grid>
@@ -88,7 +88,7 @@ export default function Team() {
 
             <br />
             <br />
-            <Typography variant="h5" className={classes.hy}>
+            <Typography variant="h4" className={classes.hy}>
                 <b>Heads</b>
             </Typography>
             <br />
@@ -102,10 +102,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Yashvardhan} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Yashvardhan
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         ML Lead
                                     </Typography>
                                 </Grid>
@@ -119,10 +119,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Shagun} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Shagun Saboo
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Project Development Head
                                     </Typography>
                                 </Grid>
@@ -136,10 +136,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Darshpreet} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Darshpreet Singh
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Project Development Co-Head
                                     </Typography>
                                 </Grid>
@@ -154,10 +154,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Sanyam} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Sanyam
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Project Moderator
                                     </Typography>
                                 </Grid>
@@ -172,10 +172,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Athrav} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Athrav Jairath
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Design and Development Head
                                     </Typography>
                                 </Grid>
@@ -190,7 +190,7 @@ export default function Team() {
 
             <br />
             <br />
-            <Typography variant="h5" className={classes.hy}>
+            <Typography variant="h4" className={classes.hy}>
                 <b>Web</b>
             </Typography>
             <br />
@@ -203,10 +203,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Mohit} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Mohit Gupta
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web
                                     </Typography>
                                 </Grid>
@@ -220,10 +220,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Praveen} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Praveen Chaudhary
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web
                                     </Typography>
                                 </Grid>
@@ -238,10 +238,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Athrav} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Athrav Jairath
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web
                                     </Typography>
                                 </Grid>
@@ -256,10 +256,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Shubham} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Shubham Gupta
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web
                                     </Typography>
                                 </Grid>
@@ -274,10 +274,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Ayanabha} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Ayanabha Paul
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web
                                     </Typography>
                                 </Grid>
@@ -292,10 +292,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Anubhav} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Anubhav Sharma
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web
                                     </Typography>
                                 </Grid>
@@ -310,10 +310,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Rajeev} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Rajeev Rajput
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web
                                     </Typography>
                                 </Grid>
@@ -328,10 +328,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Uday} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Uday Yadav
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Web Lead
                                     </Typography>
                                 </Grid>
@@ -346,7 +346,7 @@ export default function Team() {
             <br />
             <br />
             <br />
-            <Typography variant="h5" className={classes.hy}>
+            <Typography variant="h4" className={classes.hy}>
                 <b>Non-Tech</b>
             </Typography>
             <br />
@@ -359,10 +359,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Ritik} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Ritik Jain
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Management Head
                                     </Typography>
                                 </Grid>
@@ -376,10 +376,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Atishay} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Atishay
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Marketing Head
                                     </Typography>
                                 </Grid>
@@ -393,10 +393,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Digambar} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Digambar Sharma
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Content Development Head
                                     </Typography>
                                 </Grid>
@@ -411,10 +411,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Nikunj} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Nikunj
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Management Co-Head
                                     </Typography>
                                 </Grid>
@@ -429,10 +429,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Ishika} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Ishika
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Marketing Co-Head
                                     </Typography>
                                 </Grid>
@@ -448,10 +448,10 @@ export default function Team() {
                                     <Avatar alt="Remy Sharp" src={Vanshika} className={classes.large} />
                                 </Grid>
                                 <Grid item xs>
-                                    <Typography variant="h5" className={classes.hy}>
+                                    <Typography variant="h4" className={classes.hy}>
                                         Vanshika Jain
                                     </Typography>
-                                    <Typography gutterBottom className={classes.hx}>
+                                    <Typography variant="h5" gutterBottom className={classes.hx}>
                                         Content Development Co-Head
                                     </Typography>
                                 </Grid>
