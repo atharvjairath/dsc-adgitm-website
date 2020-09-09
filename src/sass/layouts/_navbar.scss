@@ -45,6 +45,10 @@
     font-size: 1.6rem;
     width: 100%;
 
+    @include respond(big-scr) {
+      font-size: 2rem;
+    }
+
     a {
       &,
       &:link,
@@ -56,9 +60,9 @@
         height: 100%;
         display: flex;
         align-items: center;
-        border-bottom: 0.3rem solid transparent;
         transition: all 0.3s ease;
         backface-visibility: hidden;
+        border-bottom: 0.3rem solid transparent;
       }
 
       &.active {

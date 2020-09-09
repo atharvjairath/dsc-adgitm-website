@@ -29,6 +29,17 @@
 .u-container {
   max-width: 111rem;
   margin: 0 auto;
+
+  @include respond(tab-land) {
+    max-width: 95rem;
+  }
+  @include respond(tab-port) {
+    max-width: 80rem;
+  }
+
+  @include respond(big-scr) {
+    max-width: 80%;
+  }
 }
 
 .u-margin-top-big {

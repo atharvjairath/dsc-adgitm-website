@@ -2,55 +2,107 @@
   height: 95vh;
   margin-top: -8rem;
   position: relative;
+  margin-bottom: 10rem;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
 
   &__bg {
     height: 100%;
     width: 100%;
     background: linear-gradient(to bottom, $white, $white, $purple, $purple-2);
     border-radius: 0 0 100% 100%;
+    border-bottom: 0.5rem solid rgba($black, 0.5);
+    display: inline-block;
+
+    @include respond(tab-land) {
+      border-radius: 0 0 80% 80%;
+    }
+    @include respond(tab-port) {
+      border-radius: 0 0 60% 60%;
+    }
+    @include respond(phone) {
+      border-radius: 0 0 50% 50%;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   &__img {
-    margin-top: 15rem;
+    margin: 15rem 0 5rem 0;
+
+    @include respond(tab-land) {
+      width: 80rem;
+    }
+    @include respond(tab-port) {
+      width: 60rem;
+    }
+    @include respond(phone) {
+      width: 50rem;
+    }
+
+    @include respond(big-scr) {
+      margin-top: 17rem;
+      height: 35rem;
+    }
   }
 
   &__red-bubble {
-    background-color: rgba($red, 0.6);
+    background-color: rgba($red, 0.9);
     @include bubble;
     top: 50%;
     // left: -1rem;
     animation: redBubble 10s ease-in-out infinite;
+    border: 0.3rem solid $grey-3;
   }
   &__blue-bubble {
-    background-color: rgba($blue, 0.7);
+    background-color: rgba($blue, 0.9);
     @include bubble;
     top: 20%;
     right: 10%;
     animation: blueBubble 8s ease-in-out infinite;
+    border: 0.5rem solid $grey-3;
   }
   &__green-bubble {
-    background-color: rgba($green, 0.8);
+    background-color: rgba($green, 0.9);
     @include bubble;
     top: 83%;
     left: 8%;
-    transform: scale(0.8);
+    transform: scale(0.6);
     animation: greenBubble 5s ease-in-out infinite;
+    border: 0.5rem solid $grey-3;
   }
   &__yellow-bubble {
-    background-color: rgba($yellow, 0.8);
+    background-color: rgba($yellow, 0.9);
     @include bubble;
     top: 75%;
-    right: 12%;
+    right: -0.5%;
     transform: scale(4);
     animation: yellowBubble 20s ease-in-out infinite;
+    overflow: hidden;
+    border: 0.2rem solid $grey-3;
+
+    @include respond(phone) {
+      right: -12%;
+    }
   }
 
   &__arrow-down {
-    position: absolute;
-    bottom: 3%;
-    left: 48.5%;
+    // position: absolute;
+    // bottom: 3%;
+    // left: 48.5%;
     font-size: 10rem;
     color: $white;
     animation: arrowMotionUpDown 1s ease-in-out infinite;
+
+    @include respond(big-scr) {
+      left: 49%;
+    }
   }
 }
