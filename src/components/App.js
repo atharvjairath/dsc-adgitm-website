@@ -6,6 +6,7 @@ import '../App.css';
 
 // IMPORTING PAGES
 import Home from './pages/Home';
+import Blog from './Blog';
 
 // IMPORTING LAYOUTS
 import Navbar from './layouts/Navbar';
@@ -19,7 +20,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/Blog" component={Home} />
+        <Route path="/Blog" component={Blog} />
         <Route path="/Events" component={Home} />
         <Route path="/Team" component={Home} />
         <Route path="/Join" component={Home} />
