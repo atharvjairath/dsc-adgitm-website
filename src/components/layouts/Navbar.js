@@ -1,9 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import DscLogoH from '../../assets/dsc_logo_h.png';
+import { DscLogo } from '../../assets/logo';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+
+  const onLinkClick = () => {
+    const checkbox = document.querySelector('.navbar__checkbox');
+    checkbox.checked = false;
+  };
 
   const scrollHandler = () => {
     window.scrollY > 5 ? setScrolled(true) : setScrolled(false);
@@ -16,9 +21,15 @@ const Navbar = () => {
   return (
     <div className={scrolled ? 'navbar nav-colored' : 'navbar nav-transparent'}>
       <div className="u-container">
-        <Link to="/">
-          <img src={DscLogoH} alt="dsc_logo" className="navbar__logo" />
+        <Link className="navbar__logo-box" to="/" onClick={onLinkClick}>
+          <DscLogo />
+          <span className="navbar__logo-text">
+            dsc<span className="navbar__logo-text-bold">adgitm</span>
+          </span>
         </Link>
+
+        {/* For bigscreens and tablet-landscapes */}
+
         <ul className="navbar__collections">
           <li className="navbar__nav-links">
             <NavLink exact activeClassName="active" to="/">
@@ -51,6 +62,56 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
+
+        {/* form tablets and phone */}
+
+        <div className="navbar__sm">
+          <input
+            type="checkbox"
+            id="navi-toggle"
+            className="navbar__checkbox"
+          />
+          <label htmlFor="navi-toggle" className="navbar__button">
+            <span className="navbar__ham"></span>
+          </label>
+
+          <div className="navbar__overlay"></div>
+
+          <nav className="navbar__nav-sm">
+            <ul className="navbar__collections-sm">
+              <li className="navbar__nav-links-sm" onClick={onLinkClick}>
+                <NavLink exact activeClassName="active-sm" to="/">
+                  Home
+                </NavLink>
+              </li>
+              <li className="navbar__nav-links-sm" onClick={onLinkClick}>
+                <NavLink activeClassName="active-sm" to="/Blog">
+                  Blog
+                </NavLink>
+              </li>
+              <li className="navbar__nav-links-sm" onClick={onLinkClick}>
+                <NavLink activeClassName="active-sm" to="/Events">
+                  Events
+                </NavLink>
+              </li>
+              <li className="navbar__nav-links-sm" onClick={onLinkClick}>
+                <NavLink activeClassName="active-sm" to="/Team">
+                  Team
+                </NavLink>
+              </li>
+              <li className="navbar__nav-links-sm" onClick={onLinkClick}>
+                <NavLink activeClassName="active-sm" to="/Join">
+                  Join
+                </NavLink>
+              </li>
+              <li className="navbar__nav-links-sm" onClick={onLinkClick}>
+                <NavLink activeClassName="active-sm" to="/Projects">
+                  Projects
+                </NavLink>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </div>
   );
