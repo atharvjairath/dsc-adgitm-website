@@ -218,7 +218,7 @@ body {
       .header .extra {
         display: block; } }
   .header__right {
-    text-align: end; }
+    text-align: center; }
     .header__right svg {
       width: 100%;
       margin-top: 5rem; }
