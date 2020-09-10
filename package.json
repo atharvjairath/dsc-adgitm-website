@@ -20,7 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass": "node-sass -w ./src/sass/App.scss -o ./src"
+    "sass": "node-sass -w ./src/sass/App.scss -o ./src",
+    "deploy" : "npm run build && firebase deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
