@@ -16,6 +16,11 @@
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
+  opacity: 0.7;
+
+  @include respond(tab-port) {
+    opacity: 0.4;
+  }
 }
 
 @mixin flexCenterCenter {

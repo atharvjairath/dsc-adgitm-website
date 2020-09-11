@@ -76,6 +76,10 @@
   &__left {
     width: 90%;
     margin: auto 0;
+
+    @include respond(tab-port) {
+      margin: auto auto;
+    }
   }
 
   @include respond(tab-port) {

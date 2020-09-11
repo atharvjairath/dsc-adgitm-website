@@ -251,6 +251,9 @@ body {
   .header__left {
     width: 90%;
     margin: auto 0; }
+    @media (max-width: 56.25em) {
+      .header__left {
+        margin: auto auto; } }
   @media (max-width: 56.25em) {
     .header {
       text-align: center; } }
@@ -260,38 +263,54 @@ body {
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
+    opacity: 0.7;
     top: 50%;
     animation: redBubble 10s ease-in-out infinite; }
+    @media (max-width: 56.25em) {
+      .header__red-bubble {
+        opacity: 0.4; } }
   .header__green-bubble {
     background-color: rgba(15, 157, 88, 0.9);
     position: absolute;
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
+    opacity: 0.7;
     top: 20%;
     right: 10%;
     animation: greenBubble 8s ease-in-out infinite; }
+    @media (max-width: 56.25em) {
+      .header__green-bubble {
+        opacity: 0.4; } }
   .header__blue-bubble {
     background-color: rgba(66, 133, 244, 0.9);
     position: absolute;
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
+    opacity: 0.7;
     top: 83%;
     left: 8%;
     transform: scale(0.6);
     animation: blueBubble 5s ease-in-out infinite; }
+    @media (max-width: 56.25em) {
+      .header__blue-bubble {
+        opacity: 0.4; } }
   .header__yellow-bubble {
     background-color: rgba(251, 188, 4, 0.9);
     position: absolute;
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
+    opacity: 0.7;
     top: 75%;
     right: -0.5%;
     transform: scale(4);
     animation: yellowBubble 20s ease-in-out infinite;
     overflow: hidden; }
+    @media (max-width: 56.25em) {
+      .header__yellow-bubble {
+        opacity: 0.4; } }
     @media (max-width: 37.5em) {
       .header__yellow-bubble {
         right: -12%; } }

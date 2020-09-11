@@ -4,10 +4,19 @@ import { DownArrow, DscLogo, Think } from '../../assets/logo';
 const Header = () => {
   return (
     <Fragment>
-      <div className="header u-mb-big">
+      <div
+        className="header u-mb-big"
+        data-aos="fade-down"
+        data-aos-duration="800"
+      >
         <div className="u-container">
           <div className="header__content">
-            <div className="header__left">
+            <div
+              className="header__left"
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-duration="800"
+            >
               <div className="header__logo u-mb-med">
                 <DscLogo />
                 <p className="text">dsc adgitm</p>
@@ -26,7 +35,12 @@ const Header = () => {
                 </span>
               </p>
             </div>
-            <div className="header__right">
+            <div
+              className="header__right"
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-duration="800"
+            >
               <Think />
             </div>
           </div>

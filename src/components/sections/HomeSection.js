@@ -24,17 +24,17 @@ const HomeSection = () => {
   const classes = useStyles();
   return (
     <div className="home u-text-center u-mb-big u-mt-big">
-      <div className="home__aim u-mb-big">
+      <div className="home__aim u-mb-big" data-aos="fade-up">
         <h1 className="h1 u-mb-small  home__head">Our Aim</h1>
         <p className="u-sm-text  u-sm-container home__text  u-mt-med">
           At Developer Student Club, ADGITM we believe imagination has no limits and we can make almost anything possible through technology. We want to create leaders by empowering them to think out of the box.
         </p>
       </div>
 
-      <div className="home__social-media u-mb-big u-mt-big">
-        <h1 className="h1 u-mb-small home__head">Connect with Us</h1>
+
+      <div className="home__social-media u-mb-big u-mt-big" data-aos="fade-up">
+        <h1 className="h1 u-mb-small home__head">Social Media</h1>
         <br />
-        
           <div className={classes.root}>
             <Grid container >
               <Grid item xs={3} >
@@ -71,15 +71,16 @@ const HomeSection = () => {
         <a href="/Blog"><button className="btn btn--dark u-mt-med" >Know More</button></a>
       </div>
 
-      <div className="home__blog u-mb-big u-mt-big">
-        <h1 className="h1 u-mb-small home__head  ">Projects</h1>
+
+      <div className="home__blog u-mb-big u-mt-big" data-aos="fade-up">
+        <h1 className="h1 u-mb-small home__head  ">Blog and Recourses</h1>
         <p className="u-sm-text  u-sm-container home__text u-mt-med">
           Want to get your hands dirty. We will be having a curated list of product so that you can turn theory into practice.
         </p>
         <a href="https://adgitmdsc.github.io/project-page/"><button className="btn btn--dark u-mt-med" >Know More</button></a>
       </div>
 
-      <div className="home__contact u-mb-big u-mt-big">
+      <div className="home__contact u-mb-big u-mt-big" data-aos="fade-up">
         <h1 className="h1 u-mb-small home__head">Contact Us For An Idea</h1>
         <p className="u-sm-text u-mt-med  u-sm-container home__text">
           We think slightly out of the box, we believe that a club’s resources
@@ -89,7 +90,7 @@ const HomeSection = () => {
         <a href="mailto:googledevelopersadgitm@gmail.com"><button className="btn btn--dark u-mt-med">Contact us</button></a>
       </div>
 
-      <div className="home__rocket">
+      <div className="home__rocket" data-aos="fade-up" data-aos-delay="300">
         <Rocket />
       </div>
 
