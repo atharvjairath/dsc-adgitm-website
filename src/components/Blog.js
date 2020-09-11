@@ -45,7 +45,7 @@ export default function Blog() {
                 <Typography variant="h2" align="center">Blogs from DSC ADGTIM</Typography>
                 <br />
                 <div align="center">
-                    <Button size="large" variant="contained" color="primary" className={classes.button} link="http://medium.com/"> View on medium </Button>
+                    <Button size="large" variant="contained" color="primary" className={classes.button} link="http://medium.com/" disabled> View on medium </Button>
                 </div>
             </div>
             <br />

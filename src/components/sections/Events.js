@@ -63,7 +63,7 @@ export default function Album() {
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
                 <Grid item>
-                  <Button variant="contained" size="large" color="primary">
+                  <Button variant="contained" size="large" color="primary" disabled>
                     Youtube Channel
                   </Button>
                 </Grid>

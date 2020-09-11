@@ -16,9 +16,8 @@ const Header = () => {
                 Powered By Google Developers
               </h3>
               <p className="text u-sm-text">
-                DSC is a Google Developers program for University students,
-                designed to help you build your mobile and web development
-                skills and knowledge. <br />
+
+                The Google Developer student clubs ADGITM is a community creating a peer to peer environment by drinking developers forever and designer under one roof so that we connect, learn, and grow by implementing projects that solve real-world problems, together!<br />
                 <br />
                 <span className="extra">
                   It is open to any student, ranging from novice (developers who
