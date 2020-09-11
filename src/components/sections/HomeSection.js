@@ -4,7 +4,7 @@ import { Coder, Rocket } from '../../assets/logo';
 const HomeSection = () => {
   return (
     <div className="home u-text-center u-mb-big u-mt-big">
-      <div className="home__aim u-mb-big">
+      <div className="home__aim u-mb-big" data-aos="fade-up">
         <h1 className="h1 u-mb-small  home__head">Our Aim</h1>
         <p className="u-sm-text  u-sm-container home__text  u-mt-med">
           We think slightly out of the box, we believe that a club’s resources
@@ -13,7 +13,7 @@ const HomeSection = () => {
         </p>
       </div>
 
-      <div className="home__social-media u-mb-big u-mt-big">
+      <div className="home__social-media u-mb-big u-mt-big" data-aos="fade-up">
         <h1 className="h1 u-mb-small home__head">Social Media</h1>
         <p className="u-sm-text  u-sm-container home__text u-mt-med">
           We think slightly out of the box, we believe that a club’s resources
@@ -23,7 +23,7 @@ const HomeSection = () => {
         <button className="btn btn--dark u-mt-med">Join Us</button>
       </div>
 
-      <div className="home__blog u-mb-big u-mt-big">
+      <div className="home__blog u-mb-big u-mt-big" data-aos="fade-up">
         <h1 className="h1 u-mb-small home__head  ">Blog and Recourses</h1>
         <p className="u-sm-text  u-sm-container home__text u-mt-med">
           We think slightly out of the box, we believe that a club’s resources
@@ -33,7 +33,7 @@ const HomeSection = () => {
         <button className="btn btn--dark u-mt-med">Know More</button>
       </div>
 
-      <div className="home__contact u-mb-big u-mt-big">
+      <div className="home__contact u-mb-big u-mt-big" data-aos="fade-up">
         <h1 className="h1 u-mb-small home__head">Contact Us For An Idea</h1>
         <p className="u-sm-text u-mt-med  u-sm-container home__text">
           We think slightly out of the box, we believe that a club’s resources
@@ -43,7 +43,7 @@ const HomeSection = () => {
         <button className="btn btn--dark u-mt-med">contact us</button>
       </div>
 
-      <div className="home__rocket">
+      <div className="home__rocket" data-aos="fade-up" data-aos-delay="300">
         <Rocket />
       </div>
 
