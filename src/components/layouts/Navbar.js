@@ -14,6 +14,10 @@ const Navbar = () => {
     window.scrollY > 5 ? setScrolled(true) : setScrolled(false);
   };
 
+  // const JoinUs = () => {
+  //   window.location.href = "https://www.google.com"
+  // }
+
   useEffect(() => {
     window.addEventListener('scroll', scrollHandler);
   }, []);
@@ -51,11 +55,11 @@ const Navbar = () => {
               Team
             </NavLink>
           </li>
-          <li className="navbar__nav-links">
-            <NavLink activeClassName="active" to="/Join">
+          {/* <li className="navbar__nav-links">
+            <Link activeClassName="active" to="http://www.google.com">
               Join
-            </NavLink>
-          </li>
+            </Link>
+          </li> */}
         </ul>
 
         {/* form tablets and phone */}
@@ -94,11 +98,11 @@ const Navbar = () => {
                   Team
                 </NavLink>
               </li>
-              <li className="navbar__nav-links-sm" onClick={onLinkClick}>
+              {/* <li className="navbar__nav-links-sm" onClick={JoinUs}>
                 <NavLink activeClassName="active-sm" to="/Join">
                   Join
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

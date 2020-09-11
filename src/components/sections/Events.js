@@ -49,6 +49,8 @@ export default function Album() {
 
   return (
     <React.Fragment>
+    <br /> <br /><br /><br /><br /><br />
+    
       <CssBaseline />
       <main>
         {/* Hero unit */}
@@ -91,7 +93,7 @@ export default function Album() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="large" color="primary">
+                    <Button size="large" color="primary" disabled>
                       View
                     </Button>
                   </CardActions>
