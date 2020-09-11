@@ -1,21 +1,19 @@
 .navbar {
   &.nav-transparent {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     height: 7rem;
-    // padding: 1rem 0 1rem 0;
     background-color: transparent;
     z-index: 100;
     transition: all 0.2s ease;
   }
 
   &.nav-colored {
-    position: sticky;
+    position: fixed;
     top: 0;
     width: 100%;
     height: 7rem;
-    // padding: 1rem 0 1rem 0;
     background-color: $white;
     z-index: 100;
     transition: all 0.2s ease;
@@ -51,7 +49,7 @@
   }
 
   &__collections {
-    min-width: 40%;
+    min-width: 60%;
     @include flexRowBetween;
     height: 100%;
 
@@ -68,8 +66,9 @@
     display: inline-block;
     height: 100%;
     list-style: none;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     width: 100%;
+    font-weight: 300;
 
     @include respond(big-scr) {
       font-size: 2rem;

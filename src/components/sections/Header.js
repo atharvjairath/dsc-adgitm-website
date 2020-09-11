@@ -8,17 +8,18 @@ const Header = () => {
         <div className="u-container">
           <div className="header__content">
             <div className="header__left">
-              <div className="header__logo u-mb-small">
+              <div className="header__logo u-mb-med">
                 <DscLogo />
-                <p className="text">Dsc adgitm</p>
+                <p className="text">dsc adgitm</p>
               </div>
-              <h3 className="header__head h2 u-mb-small">
+              <h3 className="header__head h3 u-mb-small">
                 Powered By Google Developers
               </h3>
-              <p className="text">
+              <p className="text u-sm-text">
                 DSC is a Google Developers program for University students,
                 designed to help you build your mobile and web development
                 skills and knowledge. <br />
+                <br />
                 <span className="extra">
                   It is open to any student, ranging from novice (developers who
                   are just starting), to advanced (developers who want to
