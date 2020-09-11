@@ -6,6 +6,7 @@ import '../App.css';
 
 // IMPORTING PAGES
 import Home from './pages/Home';
+import Blog from './Blog';
 import Events from './pages/Eventpage';
 import Team from './team'
 
@@ -21,7 +22,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/Blog" component={Home} />
+        <Route path="/Blog" component={Blog} />
         <Route path="/Events" component={Events} />
         <Route path="/Team" component={Team} />
         <Route path="/Join" component={Home} />
