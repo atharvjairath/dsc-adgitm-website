@@ -56,11 +56,6 @@ const Navbar = () => {
               Join
             </NavLink>
           </li>
-          <li className="navbar__nav-links">
-            <NavLink activeClassName="active" to="/Projects">
-              Projects
-            </NavLink>
-          </li>
         </ul>
 
         {/* form tablets and phone */}
@@ -102,11 +97,6 @@ const Navbar = () => {
               <li className="navbar__nav-links-sm" onClick={onLinkClick}>
                 <NavLink activeClassName="active-sm" to="/Join">
                   Join
-                </NavLink>
-              </li>
-              <li className="navbar__nav-links-sm" onClick={onLinkClick}>
-                <NavLink activeClassName="active-sm" to="/Projects">
-                  Projects
                 </NavLink>
               </li>
             </ul>
