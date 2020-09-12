@@ -29,6 +29,7 @@ const HomeSection = () => {
         <p className="u-sm-text  u-sm-container home__text  u-mt-med">
           At Developer Student Club, ADGITM we believe imagination has no limits and we can make almost anything possible through technology. We want to create leaders by empowering them to think out of the box.
         </p>
+        <a href="https://forms.gle/Qx21QCW9iG5B3XFVA"><button className="btn btn--dark u-mt-med">Join Us</button></a>
       </div>
 
       <div className="home__social-media u-mb-big u-mt-big" data-aos="fade-up">
@@ -51,13 +52,13 @@ const HomeSection = () => {
             </Grid>
           </div>
 
-        <a href="https://forms.gle/Qx21QCW9iG5B3XFVA"><button className="btn btn--dark u-mt-med">Join Us</button></a>
+        
       </div>
 
       <div className="home__contact u-mb-big u-mt-big">
         <h1 className="h1 u-mb-small home__head">Team DSC</h1>
         <p className="u-sm-text u-mt-med  u-sm-container home__text">
-          our community is made by its member here are talented and success added people who are working around the clock to provide you something extraordinary
+          Our community is made by its members. Here are talented and success addict people who are working around the clock to provide you something extraordinary
         </p>
         <a href="/Team"><button className="btn btn--dark u-mt-med">View Team DSC</button></a>
       </div>

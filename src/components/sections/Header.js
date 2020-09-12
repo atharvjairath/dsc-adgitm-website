@@ -27,7 +27,7 @@ const Header = () => {
                 Powered By Google Developers
               </h3>
               <p className="text u-sm-text">
-                The Google Developer student clubs ADGITM is a community creating a peer to peer environment by drinking developers forever and designer under one roof so that we connect, learn, and grow by implementing projects that solve real-world problems, together!<br />
+                The Google Developer student clubs ADGITM is a community creating a peer to peer environment by bringing developers under one roof so that we connect, learn, and grow by implementing projects that solve real-world problems !<br />
                 <br />
                 {/* <span className="extra">
                   It is open to any student, ranging from novice (developers who
@@ -35,7 +35,7 @@ const Header = () => {
                   further improve their skills). Join Us!!
                 </span> */}
               </p>
-              <a href="https://forms.gle/Qx21QCW9iG5B3XFVA"><button className="btn btn--dark u-mt-med" >Join Us</button></a>
+              
             </div>
             <div
               className="header__right"
