@@ -11,7 +11,8 @@ import '../App.css';
 import Home from './pages/Home';
 import Blog from './Blog';
 import Events from './pages/Eventpage';
-import Team from './team'
+import Team from './team';
+import Certificate from './Certificate';
 
 // IMPORTING LAYOUTS
 import Navbar from './layouts/Navbar';
@@ -24,14 +25,17 @@ import Footer from './sections/Footer';
 function App() {
   return (
     <Router>
-      <Navbar />
+      {window.location.pathname !== '/certificate' && <Navbar />}
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/Blog" component={Blog} />
         <Route path="/Events" component={Events} />
         <Route path="/Team" component={Team} />
+        <Route path="/Join" component={Home} />
+        <Route path="/Projects" component={Home} />
+        <Route path="/certificate" component={Certificate} />
       </Switch>
-      <Footer />
+      {window.location.pathname !== '/certificate' && <Footer />}
     </Router>
   );
 }
