@@ -36,6 +36,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 export default function Blog() {
+
   const classes = useStyles();
   return (
     <div>
@@ -87,6 +88,7 @@ export default function Blog() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
+
                 <div align="center">
                   <Button
                     size="large"

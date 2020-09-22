@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { DownArrow, DscLogo, Think } from '../../assets/logo';
 
+
 const Header = () => {
   return (
     <Fragment>
@@ -21,19 +22,20 @@ const Header = () => {
                 <DscLogo />
                 <p className="text">dsc adgitm</p>
               </div>
+              <br />
               <h3 className="header__head h3 u-mb-small">
                 Powered By Google Developers
               </h3>
               <p className="text u-sm-text">
-
-                The Google Developer student clubs ADGITM is a community creating a peer to peer environment by drinking developers forever and designer under one roof so that we connect, learn, and grow by implementing projects that solve real-world problems, together!<br />
+                The Google Developer student clubs ADGITM is a community creating a peer to peer environment by bringing developers under one roof so that we connect, learn, and grow by implementing projects that solve real-world problems !<br />
                 <br />
-                <span className="extra">
+                {/* <span className="extra">
                   It is open to any student, ranging from novice (developers who
                   are just starting), to advanced (developers who want to
                   further improve their skills). Join Us!!
-                </span>
+                </span> */}
               </p>
+              
             </div>
             <div
               className="header__right"

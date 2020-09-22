@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import AOS from 'aos';
-import 'aos/dist/aos.css'; // You can also use <link> for styles
+// import AOS from 'aos';
+// import 'aos/dist/aos.css'; // You can also use <link> for styles
 //
 
 // Main css file
@@ -20,7 +20,7 @@ import Navbar from './layouts/Navbar';
 // IMPORTING SECTIONS
 import Footer from './sections/Footer';
 
-AOS.init();
+// AOS.init();
 
 function App() {
   return (

@@ -5,7 +5,7 @@ import Grid from '@material-ui/core/Grid';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import { SignalWifi1BarLock, Twitter } from '@material-ui/icons';
+import { Twitter } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -31,6 +31,7 @@ const HomeSection = () => {
           and we can make almost anything possible through technology. We want
           to create leaders by empowering them to think out of the box.
         </p>
+        <a href="https://forms.gle/Qx21QCW9iG5B3XFVA"><button className="btn btn--dark u-mt-med">Join Us</button></a>
       </div>
 
       <div className="home__social-media u-mb-big u-mt-big" data-aos="fade-up">
@@ -64,12 +65,13 @@ const HomeSection = () => {
           </Grid>
         </div>
 
-        <button className="btn btn--dark u-mt-med">Join Us</button>
+        
       </div>
 
       <div className="home__contact u-mb-big u-mt-big" data-aos="fade-up">
         <h1 className="h1 u-mb-small home__head">Team DSC</h1>
         <p className="u-sm-text u-mt-med  u-sm-container home__text">
+
           our community is made by its member here are talented and success
           added people who are working around the clock to provide you something
           extraordinary
@@ -81,6 +83,7 @@ const HomeSection = () => {
 
       <div className="home__blog u-mb-big u-mt-big" data-aos="fade-up">
         <h1 className="h1 u-mb-small home__head  ">Blog and Resourses</h1>
+
         <p className="u-sm-text  u-sm-container home__text u-mt-med">
           Want learn something new ? Check out our blogs and resources section.
         </p>
@@ -90,7 +93,7 @@ const HomeSection = () => {
       </div>
 
       <div className="home__blog u-mb-big u-mt-big" data-aos="fade-up">
-        <h1 className="h1 u-mb-small home__head  ">Blog and Recourses</h1>
+        <h1 className="h1 u-mb-small home__head  ">Projects</h1>
         <p className="u-sm-text  u-sm-container home__text u-mt-med">
           Want to get your hands dirty. We will be having a curated list of
           product so that you can turn theory into practice.
@@ -101,7 +104,7 @@ const HomeSection = () => {
       </div>
 
       <div className="home__contact u-mb-big u-mt-big" data-aos="fade-up">
-        <h1 className="h1 u-mb-small home__head">Contact Us For An Idea</h1>
+        <h1 className="h2 u-mb-small home__head">Contact Us For An Idea</h1>
         <p className="u-sm-text u-mt-med  u-sm-container home__text">
           We think slightly out of the box, we believe that a club’s resources
           must not only be channeled into conducting events but also to
